@@ -2,7 +2,7 @@
   "name": "react-facebook-login-light",
   "version": "1.0.5",
   "description": "A Component React for Facebook Login, forked from Giovanni Keppelen (keppelen)'s work.",
-  "main": "dist/facebook-login.js",
+  "main": "dist/facebook-login-light.js",
   "scripts": {
     "start": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js",
     "bundle": "NODE_ENV=production node_modules/.bin/webpack -p --config webpack.config.dist.js",
