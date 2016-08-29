@@ -1,7 +1,7 @@
 {
-  "name": "react-facebook-login",
-  "version": "3.1.0",
-  "description": "A Component React for Facebook Login",
+  "name": "react-facebook-login-container",
+  "version": "1.0.0",
+  "description": "A Component React for Facebook Login, forked from Giovanni Keppelen (keppelen)'s work.",
   "main": "dist/facebook-login.js",
   "scripts": {
     "start": "NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js",
@@ -10,21 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keppelen/react-facebook-login.git"
+    "url": "https://github.com/andretw/react-facebook-login-container.git"
   },
   "keywords": [
     "react",
     "reactjs",
     "react-component",
     "facebook-login",
-    "react-facebook-login"
+    "react-facebook-login-container"
   ],
-  "author": "Giovanni Keppelen <keppelen.as@gmail.com>",
+  "author": "Andre Lee <andre@plusdiff.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/keppelen/react-facebook-login/issues"
+    "url": "https://github.com/andretw/react-facebook-login-container/issues"
   },
-  "homepage": "https://github.com/keppelen/react-facebook-login",
+  "homepage": "https://github.com/andretw/react-facebook-login-container",
   "devDependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0",

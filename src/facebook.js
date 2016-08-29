@@ -1,34 +1,28 @@
 import React, { PropTypes } from 'react';
-import styles from '../styles/facebook.scss';
 
 class FacebookLogin extends React.Component {
 
   static propTypes = {
+    children: PropTypes.node,
     callback: PropTypes.func.isRequired,
     appId: PropTypes.string.isRequired,
     xfbml: PropTypes.bool,
     cookie: PropTypes.bool,
     scope: PropTypes.string,
-    textButton: PropTypes.string,
     typeButton: PropTypes.string,
     autoLoad: PropTypes.bool,
-    size: PropTypes.string,
     fields: PropTypes.string,
-    cssClass: PropTypes.string,
     version: PropTypes.string,
-    icon: PropTypes.string,
     language: PropTypes.string,
   };
 
   static defaultProps = {
-    textButton: 'Login with Facebook',
+    children: null,
     typeButton: 'button',
     scope: 'public_profile,email',
     xfbml: false,
     cookie: false,
-    size: 'metro',
     fields: 'name',
-    cssClass: 'kep-login-facebook',
     version: '2.3',
     language: 'en_US',
   };
@@ -94,39 +88,15 @@ class FacebookLogin extends React.Component {
     }
   };
 
-  renderWithFontAwesome() {
-    const { cssClass, size, icon, textButton, typeButton } = this.props;
-    return (
-      <span>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
-        <button
-          type={typeButton}
-          className={`${cssClass} ${size}`}
-          onClick={this.click}
-        >
-          <i className={`fa ${icon}`}></i> {textButton}
-        </button>
-        <style dangerouslySetInnerHTML={{ __html: styles }}></style>
-      </span>
-    );
-  }
-
   render() {
-    const { cssClass, size, icon, textButton } = this.props;
-    if (icon) {
-      return this.renderWithFontAwesome();
-    }
+    const { children } = this.props;
 
     return (
-      <span>
-        <button
-          className={`${cssClass} ${size}`}
-          onClick={this.click}
-        >
-          {textButton}
-        </button>
-        <style dangerouslySetInnerHTML={{ __html: styles }}></style>
-      </span>
+      <button
+        onClick={this.click}
+      >
+      {children}
+      </button>
     );
   }
 }
