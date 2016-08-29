@@ -1,3 +1,3 @@
-import FacebookLoginContainer from './facebook';
+import FacebookLoginLight from './facebook';
 
-export default FacebookLoginContainer;
+export default FacebookLoginLight;

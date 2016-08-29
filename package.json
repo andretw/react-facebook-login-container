@@ -1,5 +1,5 @@
 {
-  "name": "react-facebook-login-container",
+  "name": "react-facebook-login-light",
   "version": "1.0.3",
   "description": "A Component React for Facebook Login, forked from Giovanni Keppelen (keppelen)'s work.",
   "main": "dist/facebook-login.js",
@@ -10,21 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andretw/react-facebook-login-container.git"
+    "url": "https://github.com/andretw/react-facebook-login-light.git"
   },
   "keywords": [
     "react",
     "reactjs",
     "react-component",
     "facebook-login",
-    "react-facebook-login-container"
+    "react-facebook-login-light"
   ],
   "author": "Andre Lee <andre@plusdiff.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andretw/react-facebook-login-container/issues"
+    "url": "https://github.com/andretw/react-facebook-login-light/issues"
   },
-  "homepage": "https://github.com/andretw/react-facebook-login-container",
+  "homepage": "https://github.com/andretw/react-facebook-login-light",
   "devDependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
