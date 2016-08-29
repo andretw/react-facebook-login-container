@@ -1,6 +1,6 @@
 {
   "name": "react-facebook-login-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Component React for Facebook Login, forked from Giovanni Keppelen (keppelen)'s work.",
   "main": "dist/facebook-login.js",
   "scripts": {
@@ -29,7 +29,6 @@
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "autoprefixer": "^6.0.3",
-
     "babel": "^6.5.2",
     "babel-core": "^6.6.5",
     "babel-eslint": "^4.1.6",
