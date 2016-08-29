@@ -1,6 +1,6 @@
 {
   "name": "react-facebook-login-light",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Component React for Facebook Login, forked from Giovanni Keppelen (keppelen)'s work.",
   "main": "dist/facebook-login-light.js",
   "scripts": {
