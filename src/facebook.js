@@ -3,6 +3,7 @@ import React, { PropTypes } from 'react';
 class FacebookLoginContainer extends React.Component {
 
   static propTypes = {
+    className: PropTypes.string,
     children: PropTypes.node,
     callback: PropTypes.func.isRequired,
     appId: PropTypes.string.isRequired,
@@ -89,10 +90,11 @@ class FacebookLoginContainer extends React.Component {
   };
 
   render() {
-    const { children } = this.props;
+    const { className, children } = this.props;
 
     return (
       <button
+        className={className}
         onClick={this.click}
       >
       {children}
