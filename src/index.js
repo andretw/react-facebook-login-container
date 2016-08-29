@@ -1,3 +1,3 @@
-import FacebookLogin from './facebook';
+import FacebookLoginContainer from './facebook';
 
-export default FacebookLogin;
+export default FacebookLoginContainer;

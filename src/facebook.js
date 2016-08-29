@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 
-class FacebookLogin extends React.Component {
+class FacebookLoginContainer extends React.Component {
 
   static propTypes = {
     children: PropTypes.node,
@@ -101,4 +101,4 @@ class FacebookLogin extends React.Component {
   }
 }
 
-export default FacebookLogin;
+export default FacebookLoginContainer;
